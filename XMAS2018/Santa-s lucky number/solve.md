@@ -1,7 +1,12 @@
 # Santa's luck number
 
-![Alt text]()
+![Alt text](001.png)
+
+![Alt text](002.png)
+
 그림처럼 page 버튼이 3개가 존재하고 있다.
+
+![Alt text](003.png)
 
 버튼을 클릭하면 암호화된 값들이 출력이 된다.
 
@@ -15,3 +20,4 @@
 
 burp intruder를 통해 page 파라미터를 순차적으로 증가시켜보니 flag가 출력된다.
 
+![Alt text](004.png)
