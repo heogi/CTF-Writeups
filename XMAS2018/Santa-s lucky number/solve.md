@@ -1,4 +1,6 @@
-# Santa's luck number
+# Santa's lucky number
+
+산타의 행운의 숫자
 
 ![Alt text](001.png)
 
