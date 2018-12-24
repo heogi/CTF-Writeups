@@ -24,6 +24,6 @@ settings 부분에는 이름을 바꾸는 기능과 프로필 사진을 바꾸�
 
 test.php로 이동하여 cmd 인자를 입력해준다. 현재 디렉토리에는 flag 같은 것이 안보인다. / 디렉토리를 살펴보니 flag 파일이 보인다.
 
-![Alt text](006.png)
-
 cat 명령으로 flag 파일을 읽는다. 
+
+![Alt text](006.png)
