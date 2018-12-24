@@ -26,4 +26,4 @@ test.php로 이동하여 cmd 인자를 입력해준다. 현재 디렉토리에�
 
 cat 명령으로 flag 파일을 읽는다. 
 
-![Alt text](006.png)
+![Alt text](000.png)
