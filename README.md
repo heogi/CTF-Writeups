@@ -4,4 +4,4 @@ ctf writeup
 
 markdown test
 
-* test *
+*test*
