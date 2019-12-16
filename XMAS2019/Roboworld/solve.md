@@ -52,7 +52,8 @@ login 함수에서는 username, password, captchaToken을 받아서 /capchaVerif
 > ## captcahVerify()   
 capchaVerify 함수에서는 remote_addr를 검사하고 인자로 넘어오는 token과 privKey를 받고 verifyCaptchaValue() 함수를 실행시킨다. 그리고 결과에따라 allow와 deny를 반환한다.  
 > ## Solve  
-captcahVerify() 함수에서 verifyCaptchaValue() 함수의 동작을 알지 못하지만 token값과 privKey값을 통해 무언가를 한다. 주석에 디버깅용 privkey가 존재한다.  
+captcahVerify() 함수에서 verifyCaptchaValue() 함수의 동작을 알지 못하지만 token값과 privKey값을 통해 무언가를 한다.  
+주석에 디버깅용 privkey가 존재한다.  
 몇번의 실험을 통해 디버깅용 privkey에서는 어떤 token이든 allow를 반환한다는걸 봤다.  
 login() 소스에서 보면 알겠지만 privkey는 알 수가 없고 바꿀 수도 없다.  
 그래서 captchaToken을 통해 디버깅용 privkey값까지 입력을 했다.  
