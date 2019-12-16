@@ -1,4 +1,4 @@
 # Sequel Fun
 > ## **Overview**
 간단한 SQLI 문제이다.
-<code>user=test&pass=' or 2#</code>
+``` user=test&pass=' or 2# ```
