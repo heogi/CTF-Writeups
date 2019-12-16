@@ -45,7 +45,7 @@ def captchaVerify():
     else:
         return str("deny")
 ```
-크게 /login과 /capchaVerify 경로로 라우팅되어서 각각 login함수와 captchaVerify함수를 거치게 된다.  
+/login과 /capchaVerify 경로로 라우팅되어서 각각 login함수와 captchaVerify함수를 거치게 된다.  
 > ## login()  
 login 함수에서는 username, password, captchaToken을 받아서 /capchaVerify 경로로 이동한다.  
 이후 입력한 username=backd00r 이고 password=catsrcool 이고 response에 allow가 있으면 로그인이되어 특정 경로로 redirect 한다.  
