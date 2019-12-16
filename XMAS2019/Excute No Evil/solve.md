@@ -36,7 +36,7 @@ if (isset ($_GET['name'])) {
 ?>
 ```
 
-> ## solve
+> ## Solve
 우리가 입력하는 $name 값은 in-line comment로 주석처리가 된다.  
 때문에 str_replace를 우회해서 * 를 입력할 수 있거나 다른 방법을 시도해봐야 했다.  
 먼저 str_replace를 우회하기 위해서 여러가지 방법을 시도해봤지만 잘안되었다.  
