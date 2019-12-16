@@ -56,6 +56,10 @@ captcahVerify() 함수에서 verifyCaptchaValue() 함수의 동작을 알지 못
 몇번의 실험을 통해 디버깅용 privkey에서는 어떤 token이든 allow를 반환한다는걸 봤다.  
 login() 소스에서 보면 알겠지만 privkey는 알 수가 없고 바꿀 수도 없다.  
 그래서 captchaToken을 통해 디버깅용 privkey값까지 입력을 했다.  
+```
+captcha_verification_value = heogi & privateKey = 8EE86735658A9CE426EAF4E26BB0450E
+```  
+
 그러면 요청하는 url은 이렇게 될것이다.
 ```html  
 http://127.0.0.1:{}/captchaVerify?captchaUserValue=heogi&privateKey=8EE86735658A9CE426EAF4E26BB0450E&privateKey=?????
