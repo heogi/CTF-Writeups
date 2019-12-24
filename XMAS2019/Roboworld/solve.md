@@ -61,10 +61,15 @@ login() 소스에서 보면 알겠지만 privkey는 알 수가 없고 바꿀 수
 captcha_verification_value = heogi & privateKey = 8EE86735658A9CE426EAF4E26BB0450E
 ```  
 
-그러면 요청하는 url은 이렇게 될것이다.
+~~그러면 요청하는 url은 이렇게 될것이다.~~
 ```html  
 http://127.0.0.1:{}/captchaVerify?captchaUserValue=heogi&privateKey=8EE86735658A9CE426EAF4E26BB0450E&privateKey=?????
 ```
-이를 통해 앞의 privateKey값이 적용되어 allow를 반환하게 된다.
+~~이를 통해 앞의 privateKey값이 적용되어 allow를 반환하게 된다.~~  
+가 아니라 Flask only returns the first occurrence of a parameter in request.args.get 때문에 첫번째 privateKey가 입력이 되는것이다.  
+그래서 요청되는 URL은 다음과 같다.  
+```html  
+http://127.0.0.1:{}/captchaVerify?captchaUserValue=heogi&privateKey=8EE86735658A9CE426EAF4E26BB0450E
+```  
 
 
