@@ -1,1 +1,1 @@
-<script>document.write("<iframe src='/user/'></iframe>");</script>
+document.write("<iframe src='/user/'></iframe>");
